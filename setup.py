@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
 	name="gpu-optimize",
-	version="2018.07",
+	version="2018.08",
 	author="Jackson Sipple",
 	description="Drop-in replacement functions that run on NVIDIA GPUs, parallelized for speed",
 	long_description=long_description,
@@ -15,7 +15,5 @@ setuptools.setup(
 	classifiers=(
 		"Programming Language :: Python :: 2",
 		"Operating System :: OS Independent",
-	),
-	test_suite='nose.collector',
-	tests_require=['nose'],
+	)
 )
