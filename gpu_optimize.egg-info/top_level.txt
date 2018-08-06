@@ -1,1 +1,1 @@
-gpu-optimize
+gpu_optimize
