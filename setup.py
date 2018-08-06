@@ -10,10 +10,12 @@ setuptools.setup(
 	description="Drop-in replacement functions that run on NVIDIA GPUs, parallelized for speed",
 	long_description=long_description,
 	long_description_content_type="text/markdown",
-	url="TBD",
+	url="https://github.com/Jackmastr/gpu-optimize.git",
 	packages=setuptools.find_packages(),
 	classifiers=(
 		"Programming Language :: Python :: 2",
 		"Operating System :: OS Independent",
 	),
+	test_suite='nose.collector',
+	tests_require=['nose'],
 )
